@@ -423,6 +423,7 @@ padding: 3em 1em;
 
 .form {
     display: flex;
+    flex-wrap: wrap;
 }
 
 
