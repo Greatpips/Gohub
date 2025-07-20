@@ -1,0 +1,454 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@700&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+:root {
+    --font-family-paragraph: 'Poppins', sans-serif;
+    --font-family-heading: 'Baloo Bhaijaan 2', cursive;
+    --header-colour: #F5F2FC
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-family-paragraph);
+}
+
+nav {
+    background-color: var(--header-colour);
+}
+
+.button button {
+    background-color: #6f42c1;
+}
+
+.button button:hover {
+    background-color: #493175;
+}
+
+.product {
+    margin: 15rem 0 0 0;
+}
+
+h1 {
+    font-family: var(--font-family-heading);
+}
+
+h2 {
+    font-family: var(--font-family-heading);
+}
+
+h3 {
+    font-family: var(--font-family-heading);
+    font-size: 10rem;
+}
+
+h5 {
+    font-family: var(--font-family-heading);
+}
+
+h5 span {
+    font-family: var(--font-family-heading);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+}
+
+.grid-item {
+    border-radius: 20px;
+    padding: 40px;
+    justify-content: center;
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.grid-item-1 {
+    align-content: center;
+    box-shadow: none;
+    border-radius: 0;
+
+
+}
+
+.grid-item img {
+    height: 80px;
+    margin: 0 0 0.5rem 0;
+}
+
+.proof {
+    margin: 15rem 5rem;
+}
+
+.proof-head p {
+    font-size: 22px;
+}
+
+.proof-grid-item {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.proof-grid-item img {
+    height: 90px;
+}
+
+.proof span {
+    display: block;
+}
+
+.proof-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 3fr;
+}
+
+
+.safety {
+    margin: 0 8em 25em;
+}
+
+.safety-head h5 span {
+    display: block;
+}
+
+.safety-head p span {
+    display: block;
+}
+
+.safety-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.second-container {
+    display: flex;
+
+}
+
+.second-flex p {
+    line-height: 0.5;
+}
+
+.second-flex {
+    margin: 0 10em 0 0;
+}
+
+.flex-item img {
+    height: 400px;
+}
+
+.move {
+    margin: 0 0 10em 0;
+}
+
+.finance-head-item span {
+    display: block;
+}
+
+.finance {
+    margin: 0 6em;
+}
+
+.finance-head-item {
+    margin: 0 0 7em 2em;
+}
+
+
+
+
+.img-wrap{
+    display: flex;
+}
+
+.sec-img-wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+.flx1-item {
+    margin: 0 0 7em 0;
+}
+
+
+.flx1-item ul li p i{
+  padding: 0 0.3em 0 0;
+}
+
+.flx1-item ul {
+    list-style: none;
+}
+
+
+.flx2 ul li p i{
+  padding: 0 0.3em 0 0;
+}
+
+.flx2 ul {
+    list-style: none;
+}
+
+.flx-container {
+    display: flex;
+}
+
+
+
+
+.footer-item1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 8em;
+    background-color: #f2f2f2;
+}
+
+.form{
+    display: flex;
+    align-items: center;
+    justify-items: right;
+    
+}
+
+.form input {
+    height: 50px;
+    width: 350px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border:0;
+    margin: 0;
+    background-color: white;
+    padding: 0 0.5em;
+    outline: 0;
+}
+
+
+
+.form button {
+    padding: 0 20px;
+    height: 50px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin: 0;
+    border: none;
+    background-color: #6f42c1;
+    transition: 0.3s ease-in-out;
+}
+
+.form button:hover{
+    background-color: #493175;
+}
+
+.gohub-logo {
+    margin:0 0 1em 0;
+}
+
+
+
+.form button a {
+    text-decoration: none;
+}
+
+.g-span{
+    padding: 0 0.1em 0 0;
+}
+
+.footer-item2 {
+    background-color: #212240;
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    padding:8em;
+}
+
+.footer-icons {
+   display: flex;
+}
+
+.svg {
+    padding:0 0 0 1em;
+}
+
+.about {
+    display: flex;
+}
+
+
+
+.lat-part{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 8em;
+    background-color: #212240;
+    color: whitesmoke;
+}
+
+.about span p a{
+    color:#808086 ;
+    text-decoration: none;
+}
+
+.about span p a:hover{
+    text-decoration: underline;
+}
+
+.offerings {
+    margin: 0 1em 0 0 ;
+}
+
+.lat-part .last p{
+    font-size: 0.8rem;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.tired {
+    display: flex;
+}
+
+
+
+
+@media only screen and (max-width:992px) {
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    .hero {
+        padding: 10em 0 0 0;
+    }
+
+    .container-fluid {
+        text-align: center;
+    }
+
+    .flex-btn .button {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flex-btn .button button {
+        margin: 0.3em 0;
+    }
+
+    .img-dis img {
+        display: none;
+    }
+
+    .grid-item-1 {
+        text-align: center;
+    }
+
+    .proof {
+        margin: 15rem 0;
+    }
+
+    .proof-container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .proof span {
+        display: inline-block;
+    }
+
+
+    .safety {
+        text-align: center;
+    }
+
+    .move {
+        text-align: center;
+    }
+
+    .safety-container {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .second-container {
+        display: flex;
+        justify-content: space-between;
+
+
+    }
+
+    .second-flex {
+        margin: 0;
+    }
+
+    .second-container span {
+        display: inline-block;
+    }
+
+    .safety {
+        margin: 0 1em 5em;
+    }
+
+    .flex-item img {
+        height: 350px;
+    }
+
+    .img-wrapping-flex img{
+          display: none;
+    }
+
+    .finance {
+    margin: 0;
+  } 
+
+    .finance-head-item {
+        text-align: center;
+    }
+
+    .flx-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.flx2 {
+    margin: 0 0 3em 0;
+}
+
+.footer-item1 {
+flex-direction: column;
+padding: 3em 1em;
+}
+
+.form {
+    display: flex;
+}
+
+
+
+.footer-item2  {
+    padding: 1em;
+    flex-direction: column;
+} 
+
+.about {
+    flex-direction: column;
+    padding: 1em 0 0 0 ;
+    
+}
+
+.lat-part{
+    flex-direction: column;
+    text-align: center;
+  
+}
+
+.about-us-job{
+display: block;
+}
+
+
+
+
+}
